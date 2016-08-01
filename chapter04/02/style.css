@@ -1,0 +1,34 @@
+/*sample5*/
+#fisheye{
+	margin-top: 200px;
+}
+.fisheye{
+	text-align: center;
+	height: 200px;
+	position: relative;
+}
+a.fisheyeItem{
+	text-align: center;
+	color: #000;
+	font-weight: bold;
+	text-decoration: none;
+	width: 40px;
+	position: absolute;
+	display: block;
+	top: 0;
+}
+.fisheyeItem img{
+	border: none;
+	margin: 0 auto 5px auto;
+	width: 100%;
+}
+
+.fisheyeItem span{
+	display: none;
+	positon: absolute;
+}
+.fisheyeContainter{
+	height: 200px;
+	width: 700px;
+	position: absolute;
+}

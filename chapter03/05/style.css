@@ -1,0 +1,83 @@
+/*sample1*/
+/*body{
+	background:#777;
+	color:white;
+}
+a{
+	color:#00CCFF;
+}
+h1{
+	width:80%;
+	margin:10px auto;
+}
+p{
+	margin:10px 10%;
+}
+span.tooltip{
+	line-height:1.5;
+	color:white;
+	width:200px;
+	background:#FF9900;
+	border:2px solid white;
+	padding:1em;
+	font-size:small;
+}*/
+
+/*sample2*/
+/*
+body{
+	background:black;
+	color:white;
+}
+a{
+	color:#FF9900;
+}
+h1{
+	width:80%;
+	margin:10px auto;
+}
+p{
+	position:relative;
+	margin:10px 10%;
+}
+div.tooltip{
+	width:230px;
+	position: absolute;
+}
+div.tooltip p{
+	line-height: 1.5;
+	margin: 0;
+	font-size: small;
+	background: url("images/tooltipBody.gif") top right;
+	padding: 10px 5px 0 40px;
+}
+div.tooltip img{
+	vertical-align: top;
+}
+*/
+
+/*sample3*/
+h1{
+	width: 80%;
+	margin:10px auto;
+}
+p{
+	margin: 10px 10%;
+}
+p.tooltip{
+	line-height: 1.5;
+	color: white;
+	margin: 0;
+	width: 185px;
+	height: 86px;
+	position: absolute;
+	padding: 10px 20px 20px 10px;
+	background:url("images/tooltip.png");
+	font-size: small;
+}
+* html p.tooltip{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/tooltip.png",sizengMethod="scale");
+}
+
+

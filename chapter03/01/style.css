@@ -1,0 +1,130 @@
+/*
+sample1
+一行おきに色分けして表示
+*/
+/*table{
+	margin:100px auto;
+}
+tr:nth-child(even){
+	background:#F2F2F2;
+}
+th{
+	background: #222222;
+	color: white;
+}
+th:nth-child(odd){
+	background: #444444;
+}
+th,td{
+	padding: 5px;
+	font-size: small;
+}*/
+
+
+/*
+sample2
+行や列ごとにclassを付ければ
+IE6でもストライプテーブルは実装できる
+*/
+/*table{
+	margin:100px auto;
+}
+tr.even{
+	background: #F2F2F2;
+}
+th{
+	background: #222222;
+	color: white;
+}
+th.odd{
+	background: #444444;
+}
+th,td{
+	padding: 5px;
+	font-size: small;
+}*/
+
+/*
+sample3 
+jQueryを使ってストライプテーブルを書き直す
+*/
+/*table{
+	margin:100px auto;
+}
+.odd{
+	background: #444444;
+}
+th{
+	background: #222222;
+	color: white;
+}
+th,td{
+	padding:5px;
+	font-size: small;
+}
+
+.even{
+	background: #F2F2F2;
+}*/
+
+/*sample4*/
+/*table{
+		margin:100px auto;
+	}
+th{
+	background:#222222;
+	color:white;
+}
+th,td{
+	padding:5px;
+	font-size:small;
+}*/
+
+/*sample5 6*/
+/*table{
+	margin:100px auto;
+}
+.odd{
+	background:#444444;
+}
+th{
+	background:#222222;
+	color:white;
+}
+th,td{
+	padding:5px;
+	font-size:small;
+}
+.even{
+	background:#F2F2F2;
+}
+tr:not(:first-child):hover{
+	background:#B2D8FF;
+}
+.hover{
+	background: #B2D8FF;
+}*/
+
+
+/*sample7*/
+table{
+	margin:100px auto;
+}
+.odd{
+	background:#444444;
+}
+th{
+	background:#222222;
+	color:white;
+}
+th,td{
+	padding:5px;
+	font-size:small;
+}
+.even{
+	background:#F2F2F2;
+}
+.hover{
+	background: #B2D8FF;
+}
+

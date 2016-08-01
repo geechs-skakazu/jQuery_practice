@@ -1,0 +1,83 @@
+/*sample1*/
+/*#floatWindow{
+	display:none;
+	position:absolute;
+	width:500px;
+	height:400px;
+	top:100px;
+	left:100px;
+}
+#floatWindow a.close{
+	position:absolute;
+	right:20px;
+	top:1px;
+}
+#floatWindow a.close img{
+	border:none;
+}
+#floatWindow dl{
+	width:100%;
+	height:100%;
+	background:url("./images/floatWindow.png");
+	margin:0;
+}
+#floatWindow dl dt{
+	height:25px;
+	line-height:25px;
+	text-indent:1em;
+	color:white;
+	font-weight:bold;
+	cursor:move;
+}
+#floatWindow dl dd{
+	margin:0;
+	padding:2em;
+	line-height:1.5;
+	text-indent:1em;
+}
+*/
+
+/*sample2*/
+#floatWindow{
+	display:none;
+	position:absolute;
+	width:500px;
+	height:400px;
+	top:100px;
+	left:100px;
+}
+#floatWindow a.close{
+	position:absolute;
+	right:20px;
+	top:1px;
+}
+#floatWindow a.close img{
+	border:none;
+}
+#floatWindow dl{
+	width:100%;
+	height:100%;
+	background:url("./images/floatWindow.png");
+	margin:0;
+}
+* html #floatWindow dl{
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./images/floatWindow.png',sizingMethod='scale');
+}
+* html #floatWindow dl *{
+	position:relative;
+}
+#floatWindow dl dt{
+	height:25px;
+	line-height:25px;
+	text-indent:1em;
+	color:white;
+	font-weight:bold;
+	cursor:move;
+}
+#floatWindow dl dd{
+	margin:0;
+	padding:2em;
+	line-height:1.5;
+	text-indent:1em;
+}
